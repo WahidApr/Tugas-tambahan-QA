@@ -1,0 +1,13 @@
+Lakukan performance test pada url https://reqres.in/api/users?page=2 dengan ketentuan:
+Number of Threads: 100
+Loop Count: 10
+Ramp-Up Period: 100
+Lalu, jelaskan hasilnya berdasarkan data reporting yang didapat, reporting dapat meliputi graph dan table, reporting yang lain bersifat optional untuk menambah wawasan anda.
+
+
+--> Dari 100 User yang mengakses https://eduwork.id/kelas?types[]=Webinar sebanyak 10 kali dalam waktu 100 detik, 
+Saya melihat bahwa test ini berjalan dengan lancar karna hasil dari report jenis table menunjukkan bahwa semua status berwarna hijau, 
+yang artinya tidak ada error atau masalah yang terdeteksi selama testing. 
+Dan pada report jenis grafik juga menggambarkan secara visual kinerja pengujian. 
+Grafik tersebut menunjukkan bahwa waktu respons rata-rata tetap stabil dalam rentang waktu yang diinginkan.
+
